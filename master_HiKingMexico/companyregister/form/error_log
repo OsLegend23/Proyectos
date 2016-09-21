@@ -1,0 +1,14 @@
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  Name in /home/hikingme/public_html/companyregister/form/remote.php on line 49
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  Email in /home/hikingme/public_html/companyregister/form/remote.php on line 49
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  Benefits in /home/hikingme/public_html/companyregister/form/remote.php on line 62
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined index:  defaultImage in /home/hikingme/public_html/companyregister/form/remote.php on line 166
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined variable: GLOBAL in /home/hikingme/public_html/inc/common.inc.php on line 394
+[08-Oct-2014 02:04:22] PHP Notice:  Undefined variable: GLOBAL in /home/hikingme/public_html/inc/common.inc.php on line 394
+[08-Oct-2014 11:56:34] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 11:56:34] PHP Notice:  Undefined index:  Name in /home/hikingme/public_html/companyregister/form/remote.php on line 49
+[08-Oct-2014 11:56:34] PHP Notice:  Undefined index:  Email in /home/hikingme/public_html/companyregister/form/remote.php on line 49
+[08-Oct-2014 11:56:34] PHP Notice:  Undefined index:  Benefits in /home/hikingme/public_html/companyregister/form/remote.php on line 62

@@ -1,0 +1,128 @@
+.tbmain {
+    /* Changes on the form */
+    background: url(http://spanish.jotform.com/images/styles/style2_bg.jpg) #ffffff !important;
+}
+
+.left {
+    /* Changes on the form */
+    color: #333333 !important;
+    font-family: Verdana !important;
+    font-size: 14px !important;
+}
+
+td.left {
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    vertical-align: top;
+    text-align: left;
+}
+
+.pagebreak {
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+td.right {
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tbmain {
+    height: 100%;
+    color: #333333;
+    background: url(http://spanish.jotform.com/images/styles/style2_bg.jpg) #ffffff;
+}
+
+.head {
+    font-family: Courier;
+    font-size: large;
+    font-weight: bold;
+    color: #333333;
+    vertical-align: top;
+    text-align: left;
+}
+
+.notvalid {
+    border: 2px red solid;
+    font-family: Courier;
+}
+
+.text {
+    color: #333333;
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #999999;
+    background: transparent;
+}
+
+select.other {
+    color: #333333;
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid #999999;
+    background: transparent;
+}
+
+.btn {
+    color: #333333;
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid #999999;
+    background: transparent;
+}
+
+span.required {
+    font-size: 13px !important;
+    color: red !important;
+}
+
+div.backButton {
+    background: transparent url("http://spanish.jotform.com//images/btn_back.gif") no-repeat scroll 0 0;
+    height: 16px;
+    width: 53px;
+    float: left;
+    margin-bottom: 15px;
+    padding-right: 5px;
+}
+
+div.backButton:hover {
+    background: transparent url("http://spanish.jotform.com//images/btn_back_over.gif") no-repeat scroll 0 0;
+}
+
+div.backButton:active {
+    background: transparent url("http://spanish.jotform.com//images/btn_back_down.gif") no-repeat scroll 0 0;
+}
+
+div.nextButton {
+    background: transparent url("http://spanish.jotform.com//images/btn_next.gif") no-repeat scroll 0 0;
+    height: 16px;
+    width: 53px;
+    float: left;
+    margin-bottom: 15px;
+    padding-right: 5px;
+}
+
+div.nextButton:hover {
+    background: transparent url("http://spanish.jotform.com//images/btn_next_over.gif") no-repeat scroll 0 0;
+}
+
+div.nextButton:active {
+    background: transparent url("http://spanish.jotform.com//images/btn_next_down.gif") no-repeat scroll 0 0;
+}
+
+.pageinfo {
+    padding-right: 5px;
+    margin-bottom: 15px;
+    float: left;
+}

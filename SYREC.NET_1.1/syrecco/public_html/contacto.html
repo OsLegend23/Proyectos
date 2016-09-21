@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <title>.::SYREC::.</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+        <meta name="keywords" content="SYREC, RECARGAS, TELCEL, MOVISTAR, IUSACELL, UNEFON, QUERETARO, DISTRIBUIDORES" />
+
+        <meta name="description" content="SYREC, Lider en Recargas Electrónicas para celular de las compañías Telcel, Movistar, Iusacell y Unefon" />
+
+        <meta name="author" content="RAFAEL ALEJANDRO AGUILAR MEDINA" />
+
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+        <style type="text/css">
+
+            /*Estilo del Mensaje del Login*/
+
+            .messagebox {
+
+                background: none repeat scroll 0 0 #FFFFCC;
+
+                border: 1px solid #F84F24;
+
+                color: #F84F24;
+
+                margin-left: -180px;
+
+                padding: 3px;
+
+                position: absolute;
+
+                top: 518px;
+
+                width: 100px;
+
+            }
+
+
+
+            .messageboxok {
+
+                position: absolute;
+
+                width: auto;
+
+                margin-left: -180px;
+
+                border: 1px solid #349534;
+
+                background: #C9FFCA;
+
+                padding: 3px;
+
+                font-weight: bold;
+
+                color: #008000;
+
+                top: 518px;
+
+            }
+
+
+
+            .messageboxerror {
+
+                position: absolute;
+
+                width: auto;
+
+                margin-left: -180px;
+
+                border: 1px solid #CC0000;
+
+                background: #F7CBCA;
+
+                padding: 3px;
+
+                font-weight: bold;
+
+                color: #CC0000;
+
+                top: 518px;
+
+            }
+
+        </style>
+
+        <script type="text/javascript" language="javascript" src="scripts/js/jquery-1.4.2.min.js">
+
+        </script>
+
+        <script type="text/javascript" language="javascript">
+
+            $(document).ready(function(){
+
+                $("#form-contact").submit(function(){
+
+                    $("#msgbox").removeClass().addClass('messagebox').text('Enviando Consulta....').fadeIn(1000);
+
+                    $.post("contacto.php", {
+
+                        nombre: $("#name").val(),
+
+                        telefono: $("#phone").val(),
+
+                        email: $("#mail").val(),
+
+                        comentario: $("#coment").val(),
+
+                        rand: Math.random()
+
+                    }, function(data){
+
+                        if (jQuery.trim(data) == 'yes') {
+
+                            $("#msgbox").fadeTo(200, 0.1, function() //start fading the messagebox
+
+                            {
+
+                                //add message and change the class of the box and start fading
+
+                                $(this).html('Hemos recibido sus datos corretamente').addClass('messageboxok').fadeTo(900, 1, function(){
+
+                                    $("#form-contact")[0].reset();
+
+                                });
+
+                                
+
+                            });
+
+                        }
+
+                        else {
+
+                            $("#msgbox").fadeTo(200, 0.1, function() //start fading the messagebox
+
+                            {
+
+                                //add message and change the class of the box and start fading
+
+                                $(this).html('Hay campos que no han sido llenados').addClass('messageboxerror').fadeTo(900, 1);
+
+                                $("#form-contact")[0].reset();
+
+                            });
+
+                            
+
+                        }
+
+                        
+
+                    });
+
+                    return false; //not to post the  form physically
+
+                });
+
+            });
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="contenedorMenu">
+
+            <div id="logo"></div>
+
+            <div id="menu">
+
+                <ul id="nav-menu">
+
+                    <li id = "inicio-tab">
+
+                        <a href="index.html">Inicio</a>
+
+                    </li>
+
+                    <li id = "faqs-tab">
+
+                        <a href="faqs.html">Preguntas Frecuentes</a>
+
+                    </li>
+
+                    <li id = "agentes-tab">
+
+                        <a href="agentes.html">Agentes</a>
+
+                    </li>
+
+                    <li id = "afiliacion-tab">
+
+                        <a href="afiliacion.html">Afiliación</a>
+
+                    </li>
+
+                    <li id = "contacto-tab" class="selected">
+
+                        Contacto
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="contenedor">
+
+            <div id="cuerpo"></div>
+
+            <div id="contenido">
+
+                <div id="contacto">
+
+                    <img id="contactBook" src="images/contact_book.png" height="570" alt="contacto"/>
+
+                    <div id="izq">
+
+                        <h1>Contacto</h1>
+
+                        <form id="form-contact" action="" method="post">
+
+                            <p class="Estilo2">
+
+                                <label>
+
+                                    Nombre
+
+                                </label>
+
+                                <input name="name" id="name" type="text" size="30" />
+
+                                <label>
+
+                                    Teléfono
+
+                                </label>
+
+                                <input name="phone" id="phone" type="text" size="30" maxlength="10" />
+
+                                <label>
+
+                                    E-mail
+
+                                </label>
+
+                                <input name="mail" id="mail" type="text" size="30" />
+
+                                <label>
+
+                                    Comentarios
+
+                                </label>
+
+                                <textarea rows="5" name="coment" id="coment" cols="5">
+
+                                </textarea>
+
+                                <br/>
+
+                                <input class="button" name="Submit" type="submit" id="submit" /><span id="msgbox" style="display:none"></span>
+
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                    <div id="direccion" class="direccion">
+
+                        <img src="images/line.gif" style="padding-bottom:14px;" alt="line" />
+
+                        <div class="datosContacto">
+
+                            <strong id="ubicacion">Direcci&oacute;n</strong>
+
+                            <span>Luis Vega y Monroy 703-5, Plazas del Sol Querétaro, Qro</span>
+
+                            <br class="clear" />
+
+                        </div>
+
+                        <div class="datosContacto">
+
+                            <strong id="correo">Email</strong>
+
+                            <span>ventas@syrec.com.mx</span>
+
+                            <br class="clear" />
+
+                        </div>
+
+                        <div class="datosContacto">
+
+                            <strong id="telefono">Tel&eacute;fono</strong>
+
+                            <span>(442)-22-35-620</span>
+
+                            <br class="clear" />
+
+                        </div>
+
+                        <img src="images/line.gif" alt="line" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="footer"></div>
+
+        </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21733337-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+
+</html>
+

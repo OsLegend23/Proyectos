@@ -1,0 +1,58 @@
+/*
+ Cusco Sky table styles
+ written by Braulio Soncco http://www.buayacorp.com
+ */
+table.saldos, th.saldos, td.saldos {
+    border: 1px solid #D4E0EE;
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+}
+
+caption.saldos {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+td.saldos, th.saldos {
+    padding: 4px;
+}
+
+thead.saldos th.saldos {
+    text-align: center;
+    background: #E6EDF5;
+    color: #4F76A3;
+    font-size: 100% !important;
+}
+
+tbody.saldos th.saldos {
+    font-weight: bold;
+}
+
+tbody.saldos tr.saldos {
+    background: #FCFDFE;
+}
+
+tbody.saldos tr.odd.saldos {
+    background: #F7F9FC;
+}
+
+table.saldos a:link {
+    color: #718ABE;
+    text-decoration: none;
+}
+
+table.saldos a:visited {
+    color: #718ABE;
+    text-decoration: none;
+}
+
+table.saldos a:hover {
+    color: #718ABE;
+    text-decoration: underline !important;
+}
+
+tfoot.saldos th.saldos, tfoot.saldos td.saldos {
+    font-size: 85%;
+}

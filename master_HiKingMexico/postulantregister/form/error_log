@@ -1,0 +1,6 @@
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined index:  Name in /home/hikingme/public_html/postulantregister/form/remote.php on line 49
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined index:  Email in /home/hikingme/public_html/postulantregister/form/remote.php on line 49
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined index:  defaultImage in /home/hikingme/public_html/postulantregister/form/remote.php on line 165
+[28-Sep-2014 21:21:20] PHP Notice:  Undefined variable: GLOBAL in /home/hikingme/public_html/inc/common.inc.php on line 394

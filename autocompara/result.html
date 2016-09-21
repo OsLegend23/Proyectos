@@ -1,0 +1,363 @@
+.
+
+
+<div class="span2"></div>
+<div class="span8">
+    <table id="cotizacion" class="table table-striped">
+        <thead>
+            <tr>
+                <td colspan="6" style="font-weight: bold; text-align: center;">
+                    Datos del Asegurado
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">
+                    Nombre:
+                </td>
+                <td colspan="5">
+                    <?php
+                    echo $_REQUEST["nombre"] . " " . $_REQUEST["apPaterno"] . " " . $_REQUEST["apMaterno"];
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Mail:
+                </td>
+                <td>
+                    <?php
+                    echo $_REQUEST["eMail"];
+                    ?>
+                </td>
+                <td style="font-weight: bold;">
+                    Celular:
+                </td>
+                <td>
+                    <?php
+                    echo $_REQUEST["Cel"];
+                    ?>
+                </td>
+                <td style="font-weight: bold;">
+                    Estado:
+                </td>
+                <td>
+                    <?php
+                    echo $estado[1];
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Autom&oacute;vil:
+                </td>
+                <td colspan="5">
+                    <?php
+                    echo $version[1];
+                    ?>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="span2"></div>
+
+<div class="span12">
+    <table id="cotizacion" class="table table-striped table-bordered">
+        <tr>
+            <th scope="col">
+                <b style="font-size:18px; color:red;">PAQUETES</b>
+            </th>
+            <th scope="col" colspan="3" style="text-align:center;">
+                <a title="Más infomación" data-toggle="modal" href="#paquete1">
+                    <img src="img/paq1.png" alt="pestañas cobertura sup" width="25%">
+                </a>
+            </th>
+            <th scope="col" colspan="3" style="text-align:center;">
+                <a title="Más infomación" data-toggle="modal" href="#paquete2">
+                    <img src="img/paq2.png" alt="pestañas cobertura sup" width="25%">
+                </a>
+            </th>
+            <th scope="col" colspan="3" style="text-align:center;">
+                <a title="Más infomación" data-toggle="modal" href="#paquete3">
+                    <img src="img/paq3.png" alt="pestañas cobertura sup" width="25%">
+                </a>
+            </th>
+            <th scope="col" colspan="3" style="text-align:center;">
+                <a title="Más infomación" data-toggle="modal" href="#paquete4">
+                    <img src="img/paq4.png" alt="pestañas cobertura sup" width="25%">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th scope="col">
+            </th>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[0][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][0]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[0][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][0]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[0][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][0]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[0][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][0]); ?>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" style="text-align:center;">
+                <img src="http://www.anaseguros.com.mx/images/logo-ana-80x.png" alt="Anaseguros">
+            </th>
+            <!--AnaSeguros Cotizacion-->
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[0][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[2][0]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][1]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][0]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[2][1]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][1]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[2][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[3][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[1][2]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[2][3]); ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php print_r($price[4][0]); ?>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row" style="text-align:center;">
+                <img src="http://www.segurosatlas.com.mx/assets/images/logoSA.png" alt="Seguros Atlas">
+            </th>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoAA = explode("$", $price[0][3]);
+                $precioTemp = explode(",", $primerPagoAA[1]);
+                $primerPagoAA = $precioTemp[0] . $precioTemp[1];
+                $primerPagoAA = $primerPagoAA + rand(50, 200);
+                echo "$" . number_format($primerPagoAA, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoAA2 = explode("$", $price[2][0]);
+                $precioTemp2 = explode(",", $primerPagoAA2[1]);
+                $primerPagoAA2 = $precioTemp2[0] . $precioTemp2[1];
+                $primerPagoAA2 = $primerPagoAA2 + rand(50, 200);
+                echo "$" . number_format($primerPagoAA2, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoAA3 = explode("$", $price[3][1]);
+                $precioTemp3 = explode(",", $primerPagoAA3[1]);
+                $primerPagoAA3 = $precioTemp3[0] . $precioTemp3[1];
+                $primerPagoAA3 = $primerPagoAA3 + rand(50, 200);
+                echo "$" . number_format($primerPagoAA3, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoA = explode("$", $price[1][0]);
+                $precioTemp = explode(",", $primerPagoA[1]);
+                $primerPagoA = $precioTemp[0] . $precioTemp[1];
+                $primerPagoA = $primerPagoA + rand(50, 200);
+                echo "$" . number_format($primerPagoA, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoA2 = explode("$", $price[2][1]);
+                $precioTemp2 = explode(",", $primerPagoA2[1]);
+                $primerPagoA2 = $precioTemp2[0] . $precioTemp2[1];
+                $primerPagoA2 = $primerPagoA2 + rand(50, 200);
+                echo "$" . number_format($primerPagoA2, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoA3 = explode("$", $price[3][2]);
+                $precioTemp3 = explode(",", $primerPagoA3[1]);
+                $primerPagoA3 = $precioTemp3[0] . $precioTemp3[1];
+                $primerPagoA3 = $primerPagoA3 + rand(50, 200);
+                echo "$" . number_format($primerPagoA3, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoL = explode("$", $price[1][1]);
+                $precioTemp = explode(",", $primerPagoL[1]);
+                $primerPagoL = $precioTemp[0] . $precioTemp[1];
+                $primerPagoL = $primerPagoL + rand(50, 200);
+                echo "$" . number_format($primerPagoL, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoL2 = explode("$", $price[2][2]);
+                $precioTemp2 = explode(",", $primerPagoL2[1]);
+                $primerPagoL2 = $precioTemp2[0] . $precioTemp2[1];
+                $primerPagoL2 = $primerPagoL2 + rand(50, 200);
+                echo "$" . number_format($primerPagoL2, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoL3 = explode("$", $price[3][3]);
+                $precioTemp3 = explode(",", $primerPagoL3[1]);
+                $primerPagoL3 = $precioTemp3[0] . $precioTemp3[1];
+                $primerPagoL3 = $primerPagoL3 + rand(50, 200);
+                echo "$" . number_format($primerPagoL3, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoRC = explode("$", $price[1][2]);
+                $precioTemp = explode(",", $primerPagoRC[1]);
+                $primerPagoRC = $precioTemp[0] . $precioTemp[1];
+                $primerPagoRC = $primerPagoRC + rand(50, 200);
+                echo "$" . number_format($primerPagoRC, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoRC2 = explode("$", $price[2][3]);
+                $precioTemp2 = explode(",", $primerPagoRC2[1]);
+                $primerPagoRC2 = $precioTemp2[0] . $precioTemp2[1];
+                $primerPagoRC2 = $primerPagoRC2 + rand(50, 200);
+                echo "$" . number_format($primerPagoRC2, 2);
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                $primerPagoRC3 = explode("$", $price[4][0]);
+                $precioTemp3 = explode(",", $primerPagoRC3[1]);
+                $primerPagoRC3 = $precioTemp3[0] . $precioTemp3[1];
+                $primerPagoRC3 = $primerPagoRC3 + rand(50, 200);
+                echo "$" . number_format($primerPagoRC3, 2);
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" style="text-align:center;">
+                <img src="img/gnp10.jpg" alt="GNP Seguros" width="80%">
+            </th>
+            <td colspan="6" style="font-weight:bold; text-align:center;">
+                <span>CONSULTE DIRECTAMENTE CON LA ASEGURADORA</span>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPLIM["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["TotalPagar"];
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPLIM["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["PrimerPago"];
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPLIM["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["PagosSubsecuentes"] . "<br>";
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPRC["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["TotalPagar"];
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPRC["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["PrimerPago"];
+                ?>
+            </td>
+            <td style="font-weight:bold; text-align:center;">
+                <?php
+                echo $GNPRC["CotizarResult"]["Emision"]["Paquetes"]["TotalesPaquetes"]["Totales"]["PagosSubsecuentes"] . "<br>";
+                ?>
+            </td>
+        </tr>
+    </table>
+
+
+
+<div class="span2"></div>
+<div class="span8">
+    <table id="cotizacion" class="table table-striped">
+        <thead>
+            <tr>
+                <td colspan="6" style="font-weight: bold; text-align: center;">
+                    Datos del Asegurado
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">
+                    Nombre:
+                </td>
+                <td colspan="5">Alejandro Aguilar  Medina
+
+<div class="span2"></div>
+<div class="span8">
+    <table id="cotizacion" class="table table-striped">
+        <thead>
+            <tr>
+                <td colspan="6" style="font-weight: bold; text-align: center;">
+                    Datos del Asegurado
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">
+                    Nombre:
+                </td>
+                <td colspan="5">Alejandro Aguilar  Medina

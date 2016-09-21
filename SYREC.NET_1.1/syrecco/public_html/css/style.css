@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+html body{
+    margin: 0;
+    padding: 0;
+    background: #7e7e7e;
+    font: .9em / 1.5em "Trebuchet MS", Tahoma, Arial, sans-serif; /*"Trebuchet MS", Tahoma, Arial, sans-serif;*/
+    color: #141414;
+    height: 100%;
+    text-align: justify;
+}
+
+#contenedor{
+    background:url(../images/body-08.jpg) repeat scroll 0 0 transparent;
+    width: 1122px;
+    margin: 0 auto;
+    padding: 0;
+    text-shadow:1px 1px 0 #d7d7d7;
+}
+#contenedorMenu{
+    width: 1122px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#logo{
+    background:url(../images/logo.jpg) no-repeat;
+    width:391px;
+    height:109px;
+}
+
+#menu{
+    /*background:url("../images/menu.jpg") no-repeat scroll 0 0 transparent;*/
+    height:41px;
+    margin:0 0 0 391px;
+    position:absolute;
+    top:68px;
+    width:688px;
+}
+
+#nav-menu{
+    height:41px;
+    left:0;
+    margin:0;
+    padding:0;
+    position:relative;
+    top:0;
+    width:688px;
+}
+
+#nav-menu li{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+#nav-menu li, #nav-menu a{
+    display:block;
+    height:41px;
+}
+
+#inicio-tab{
+    background:url(../images/menu.jpg) no-repeat 0 -41px transparent;
+    left:0;
+    overflow:hidden;
+    text-indent:-300em;
+    width:132px;
+}
+#nav-menu li#inicio-tab a:hover{
+    background:url(../images/menu.jpg) no-repeat scroll 0 0 transparent;
+}
+#nav-menu #inicio-tab.selected{
+    background:url(../images/menu.jpg) no-repeat 0 0 transparent;
+    color: #f84f24;
+    font-weight: bolder;
+    cursor: text;
+}
+
+#faqs-tab{
+    background:url(../images/menu.jpg) no-repeat -139px 0 transparent;
+    left:139px;
+    overflow:hidden;
+    text-indent:-300em;
+    width:132px;
+}
+#nav-menu li#faqs-tab a:hover{
+    background:url(../images/menu.jpg) no-repeat scroll -139px -41px transparent;
+}
+#nav-menu #faqs-tab.selected{
+    background:url(../images/menu.jpg) no-repeat -139px -41px transparent;
+    color: #f84f24;
+    font-weight: bolder;
+    cursor: text;
+}
+
+#agentes-tab{
+    background:url(../images/menu.jpg) no-repeat -278px -41px transparent;
+    left:278px;
+    overflow:hidden;
+    text-indent:-300em;
+    width:132px;
+}
+#nav-menu li#agentes-tab a:hover{
+    background:url(../images/menu.jpg) no-repeat scroll -278px 0 transparent;
+}
+#nav-menu #agentes-tab.selected{
+    background:url(../images/menu.jpg) no-repeat -278px 0 transparent;
+    color: #f84f24;
+    font-weight: bolder;
+    cursor: text;
+}
+
+#afiliacion-tab{
+    background:url(../images/menu.jpg) no-repeat -418px -41px transparent;
+    left:418px;
+    overflow:hidden;
+    text-indent:-300em;
+    width:132px;
+}
+#nav-menu li#afiliacion-tab a:hover{
+    background:url(../images/menu.jpg) no-repeat scroll -418px 0 transparent;
+}
+#nav-menu #afiliacion-tab.selected{
+    background:url(../images/menu.jpg) no-repeat -418px 0 transparent;
+    color: #f84f24;
+    font-weight: bolder;
+    cursor: text;
+}
+
+#contacto-tab{
+    background:url(../images/menu.jpg) no-repeat -556px -41px transparent;
+    left:556px;
+    overflow:hidden;
+    text-indent:-300em;
+    width:132px;
+}
+#nav-menu li#contacto-tab a:hover{
+    background:url(../images/menu.jpg) no-repeat scroll -556px 0 transparent;
+}
+#nav-menu #contacto-tab.selected{
+    background:url(../images/menu.jpg) no-repeat -556px 0 transparent;
+    color: #f84f24;
+    font-weight: bolder;
+    cursor: text;
+}
+
+#cuerpo{
+    background:url("../images/body.jpg") no-repeat scroll 0 0 transparent;
+    height:25px;
+}
+
+/*#contenido{
+    margin-top: -20px;
+}*/
+
+#contenido h1{
+    color:#F84F24;
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+}
+
+p{
+    margin-left: 38px;
+    margin-right: 50px;
+}
+
+#contenido a{
+    color: #141414;
+    text-decoration: none;
+}
+
+#contenido a:hover{
+    color: #F84F24;
+}
+
+.option{
+    background:url("../images/OrangeBall.png") no-repeat scroll left center transparent;
+    font-size:16px;
+    margin-left:38px;
+    padding-bottom:8px;
+    padding-left:40px;
+}
+
+.answer{
+    background: url(../images/clickandbuy.png) no-repeat scroll left center transparent;
+    font-size:14px;
+    margin-left:80px;
+    margin-right:50px;
+    padding-left:40px;
+}
+
+#video{
+    height:205px;
+    margin-bottom:-322px;
+    margin-left:418px;
+    margin-top:101px;
+    position: absolute;
+    width:235px;
+    /*    height:205px;
+        left:598px;
+        position:absolute;
+        top:761px;
+        width:235px;*/
+}
+
+#video-agentes{
+    height:205px;
+    margin-bottom:-322px;
+    margin-left:418px;
+    margin-top:60px;
+    position: absolute;
+    width:235px;
+}
+
+#footer{
+    background:url(../images/marcas.jpg) no-repeat scroll 0 0 transparent;
+    height: 92px;
+}
+
+#leftshadow{
+    float:left;
+    height:1080px;
+    margin-left:-13px;
+}
+
+#rightshadow{
+    float:right;
+    height:1080px;
+    margin-right:-13px;
+    margin-top:-992px;
+}
+
+/*FORM*/
+.Estilo2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    color: #313131;
+    display: block;
+    float: left;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 320px;
+}
+
+input {
+    background-color: transparent;
+    background-image: url("../images/bg_txtinput.gif");
+    border: medium none;
+    color: #f84f24;
+    display: block;
+    float: left;
+    font-size: 15px;
+    height: 23px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    outline: medium none;
+    padding: 4px 5px 0;
+    width: 308px;
+}
+
+input:active, input:focus{
+    background-image: url(../images/bg_txtinput_active.gif);
+    color:black;
+}
+
+textarea {
+    background-color: transparent;
+    background-image: url("../images/bg_txtarea.gif");
+    border: medium none;
+    color: #f84f24;
+    display: block;
+    float: left;
+    font-family: "Verdana", "Arial", "sans-serif";
+    font-size: 14px;
+    height: 192px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+    outline: medium none;
+    padding: 4px 5px;
+    width: 308px;
+}
+
+textarea:active, textarea:focus{
+    background-image: url(../images/bg_txtarea_active.gif);
+    color: black;
+}
+
+.button {
+    margin: 0;
+    font: bolder 12px Arial, Sans-serif;
+    border: 2px solid #ccc;
+    padding: 2px 3px;
+    background: #fff;
+    color: #131212;
+    width: 110px;
+}
+
+.contacto {
+    background: url(../images/contact_book.png);
+}
+
+#izq {
+    display:block;
+    float:left;
+    height:495px;
+    left:130px;
+    padding:10px 32px 0;
+    position:relative;
+    width:320px;
+}
+
+#direccion {
+    display:block;
+    float:right;
+    height:175px;
+    padding:35px 10px 0;
+    position:relative;
+    right:165px;
+    top:140px;
+    width:320px;
+}
+
+.direccion .datosContacto {
+    display: block;
+    padding-bottom: 14px;
+    font-family: "Verdana", "Arial", "sans-serif";
+    font-size: 13px;
+    line-height: 18px;
+    color: #313131;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+#ubicacion {
+    background-image: url("../images/location.gif");
+}
+
+#correo {
+    background-image: url("../images/mail.gif");
+}
+
+#telefono {
+    background-image: url("../images/phone.gif");
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+}
+
+.direccion .datosContacto strong {
+    background: none no-repeat scroll 2px 2px transparent;
+    display: block;
+    float: left;
+    padding-left: 25px;
+}
+
+.direccion .datosContacto span {
+    display: block;
+    float: right;
+    width: 190px;
+}
+
+#contactBook{
+    margin-left: -225px;
+    position:absolute;
+}
+#contacto{
+    height: 600px;
+    width: 1122px;
+}
+
+#afiliationBook{
+    margin-left: 20px;
+    position:absolute;
+}
+#afiliacion{
+    height: 800px;
+    width: 1122px;
+}
+
+#izq-afiliacion {
+    display:block;
+    float:left;
+    height:495px;
+    left:85px;
+    padding:10px 32px 0;
+    position:relative;
+    width:320px;
+}
+
+#der {
+    display:block;
+    float:right;
+    height:175px;
+    padding:35px 10px 0;
+    position:relative;
+    right:100px;
+    top:30px;
+    width:320px;
+}

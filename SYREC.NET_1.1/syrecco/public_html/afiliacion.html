@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>.::SYREC::.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="SYREC, RECARGAS, TELCEL, MOVISTAR, IUSACELL, UNEFON, QUERETARO, DISTRIBUIDORES" />
+        <meta name="description" content="SYREC, Lider en Recargas Electrónicas para celular de las compañías Telcel, Movistar, Iusacell y Unefon" />
+        <meta name="author" content="RAFAEL ALEJANDRO AGUILAR MEDINA" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="css/validationEngine.jquery.css" />
+        <script type="text/javascript" src="scripts/js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="scripts/js/jquery.validationEngine-es.js"></script>
+        <script type="text/javascript" src="scripts/js/jquery.validationEngine.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#form-contact").validationEngine().fadeIn("slow");
+            });
+        </script>
+       
+    </head>
+    <body>
+        <div id="contenedorMenu">
+            <div id="logo"></div>
+            <div id="menu">
+                <ul id="nav-menu">
+                    <li id = "inicio-tab">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li id = "faqs-tab">
+                        <a href="faqs.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li id = "agentes-tab">
+                        <a href="agentes.html">Agentes</a>
+                    </li>
+                    <li id = "afiliacion-tab"  class="selected">
+                        Afiliación
+                    </li>
+                    <li id = "contacto-tab">
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="cuerpo"></div>
+            <div id="contenido">
+                <div id="afiliacion">
+                    <img id="afiliationBook" src="images/contact_book.png" height="750" alt="afiliacion"/>
+                    <form id="form-contact" action="EnvioAfiliacion.php" method="post" enctype="multipart/form-data" >
+                        <div id="izq-afiliacion">
+                            <h1>Datos de Afiliación</h1>
+                            <label>
+                                Nombre Comercial:
+                            </label>
+                            <input name="name" class="validate[required]" id="name" type="text" size="30" />
+                            <label>
+                                Responsable:
+                            </label>
+                            <input name="responsable" class="validate[required]" id="responsable" type="text" size="30" />
+                            <label>
+                                E-mail:
+                            </label>
+                            <input name="mail" id="mail" class="validate[required,custom[email]]" type="text" size="30" />
+                            <label>
+                                Teléfono Fijo:
+                            </label>
+                            <input name="phone" id="phone" class="validate[required,custom[onlyNumber]]" type="text" size="10" maxlength="10" />
+                            <label>
+                                Celular:
+                            </label>
+                            <input name="cellphone" class="validate[required,custom[onlyNumber]]" id="cellphone" type="text" size="10" maxlength="10" />
+                            <label>
+                                Dirección:
+                            </label>
+                            <input name="address" class="validate[required]" id="address" type="text" size="100" />
+                            <label>
+                                Colonia:
+                            </label>
+                            <input name="colony" class="validate[required]" id="colony" type="text" size="100" />
+                            <label>
+                                Ciudad:
+                            </label>
+                            <input name="city" class="validate[required]" id="city" type="text" size="100" />
+                        </div>
+                        <div id="der" class="der">
+                            <label>
+                                Estado:
+                            </label>
+                            <input name="state" class="validate[required]" id="state" type="text" size="100" />
+                            <label>
+                                Código Postal:
+                            </label>
+                            <input name="zipcode" class="validate[required]" id="zipcode" type="text" size="5" maxlength="5" />
+                            <label>
+                                RFC:
+                            </label>
+                            <input name="rfc"  id="rfc" type="text" size="15" />
+                            <label>
+                                Giro Comercial (ciber, farmacia, papelería, etc):
+                            </label>
+                            <input name="giro" class="validate[required]" id="giro" type="text" size="100" />
+                            <label>
+                                Medio por el que te enteraste de nosotros (Agente, revista, página de internet, etc):
+                            </label>
+                            <input name="Agent" class="validate[required]" id="Agent" type="text" size="100" />
+                            <label><b>NOTA: </b>Para realizar la afiliación es indispensable adjuntar los documentos siguientes:</label>
+                            <h1>Documentos</h1>
+                            <label>
+                                Identificación Oficial:
+                            </label>
+                            <input name="Card" class="inputFile validate[required]" id="Card" type="file" size="29"/>
+                            <label>
+                                Comprobante de Domicilio:
+                            </label>
+                            <input name="comprobante" class="inputFile validate[required]" id="comprobante" type="file" size="29" />
+                            <br/>
+                            <input class="button" name="Submit" type="submit" id="submit" value="Enviar Datos" />
+                            <br/>
+                            <img src="images/line.gif" alt="line"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="footer"></div>
+        </div>
+         <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21733337-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>

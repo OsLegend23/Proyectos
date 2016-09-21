@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solicitud>
+    <General>
+        <Usuario>MI_AGENTE</Usuario>
+        <Password>MIAGENTEWsPer</Password>
+        <CodigoPromocion>MIAGENTE_LN</CodigoPromocion>
+        <Tienda>0</Tienda>
+        <OpcionesAContratar>Limitada y RC LN MIAGENTE</OpcionesAContratar>
+        <Paquete>LIMITADA</Paquete>
+        <FormaPago>Mensual</FormaPago>
+        <MetodoPago>I</MetodoPago>
+        <InicioVig>26/02/2014</InicioVig>
+        <FinVig>26/02/2015</FinVig>
+        <Accion>C</Accion>
+        <Cotizacion/>
+        <descuentoGC>0</descuentoGC>
+        <cesioncomision>0</cesioncomision>
+        <primerrecibo>IN</primerrecibo>
+        <recibosubsecuente>IN</recibosubsecuente>
+        <CodigoIntermediario>0067807001</CodigoIntermediario>
+        <CodigoCliente></CodigoCliente>
+        <TipoPago/>
+        <ValVehi>0</ValVehi>
+        <PrimaTotal>0</PrimaTotal>
+    </General>
+    <Autos>
+        <Auto>
+            <EstadoCirculacion>08</EstadoCirculacion>
+            <Uso>01</Uso>
+            <ClaveMarca>AUTAC0101</ClaveMarca>
+            <Marca>ACURA</Marca>
+            <Modelo>2011</Modelo>
+            <Descripcion>ACURA TL</Descripcion>
+            <Motor></Motor>
+            <Serie></Serie>
+            <Placas></Placas>
+            <FormaIndemnizacion>Valor Convenido</FormaIndemnizacion>
+            <ValorConvenido></ValorConvenido>
+        </Auto>
+    </Autos>
+</Solicitud>
+<Emision>
+  <General>
+    <Poliza />
+    <Cotizacion>1920576</Cotizacion>
+    <Password>11111</Password>
+    <Accion>C</Accion>
+    <Agente>JESUS ORENCIO RAMOS GALVEZ</Agente>
+    <ClaveAgente>0067807001</ClaveAgente>
+    <Guia1 />
+    <Guia2 />
+    <Procedencia>WSP</Procedencia>
+  </General>
+  <NumCotInfo />
+  <Paquetes>
+    <TipoPaquete>LIMITADA</TipoPaquete>
+    <Coberturas>
+      <TotalCoberturas>4529.64309</TotalCoberturas>
+      <Cobertura>
+        <Nombre>Robo Total</Nombre>
+        <Suma_Asegurada>317,300.00</Suma_Asegurada>
+        <Deducible>3,173,000.00</Deducible>
+        <Prima>2853.46809</Prima>
+      </Cobertura>
+      <Cobertura>
+        <Nombre>Responsabilidad Civil por Daños a Terceros</Nombre>
+        <Suma_Asegurada>3,000,000</Suma_Asegurada>
+        <Deducible>-</Deducible>
+        <Prima>1235.08</Prima>
+      </Cobertura>
+      <Cobertura>
+        <Nombre>Extensión Cobertura Resp. Civil</Nombre>
+        <Suma_Asegurada>Amparada</Suma_Asegurada>
+        <Deducible>-</Deducible>
+        <Prima>154.385</Prima>
+      </Cobertura>
+      <Cobertura>
+        <Nombre>Protección Legal</Nombre>
+        <Suma_Asegurada>3,000,000</Suma_Asegurada>
+        <Deducible>-</Deducible>
+        <Prima>137.07</Prima>
+      </Cobertura>
+      <Cobertura>
+        <Nombre>Gastos Médicos Ocupantes</Nombre>
+        <Suma_Asegurada>200,000</Suma_Asegurada>
+        <Deducible>-</Deducible>
+        <Prima>149.64</Prima>
+      </Cobertura>
+      <Cobertura>
+        <Nombre>Club GNP Autos</Nombre>
+        <Suma_Asegurada>Amparada</Suma_Asegurada>
+        <Deducible>-</Deducible>
+        <Prima>Amparada</Prima>
+      </Cobertura>
+    </Coberturas>
+    <Descuentos>
+      <Descuento>
+        <Nombre>UbicacionGeografica</Nombre>
+        <Cantidad>0</Cantidad>
+      </Descuento>
+      <Descuento>
+        <Nombre>Volumen</Nombre>
+        <Cantidad>0</Cantidad>
+      </Descuento>
+    </Descuentos>
+    <TotalesPaquetes>
+      <Totales>
+        <FormaPago>Mensual</FormaPago>
+        <PrimaNeta>$4,529.64</PrimaNeta>
+        <RecargoPagoFracc>$452.96</RecargoPagoFracc>
+        <DerechoPoliza>$450.00</DerechoPoliza>
+        <Descuentos>$0.00</Descuentos>
+        <IVA>$869.22</IVA>
+        <TotalPagar>$6,301.82</TotalPagar>
+        <PrimerPago>$1,003.65</PrimerPago>
+        <PagosSubsecuentes>$481.65</PagosSubsecuentes>
+      </Totales>
+    </TotalesPaquetes>
+  </Paquetes>
+</Emision>

@@ -1,0 +1,3 @@
+[05-Jul-2010 17:34:28] PHP Warning:  fopen(xlsfile://usuario.xls) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: &quot;xlsStream::stream_open&quot; call failed in /home/syrec/public_html/scripts/php/php-excel/excel-ext.php on line 4
+[21-Aug-2010 17:55:27] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2632411 bytes) in /home/syrec/public_html/scripts/php/php-excel/excel-ext.php on line 8
+[20-Dec-2010 19:24:13] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 625876 bytes) in /home/syrec/public_html/scripts/php/php-excel/excel-ext.php on line 8

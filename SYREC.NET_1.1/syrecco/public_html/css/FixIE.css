@@ -1,0 +1,21 @@
+/* 
+    Document   : FixIE
+    Created on : 17/11/2010, 05:02:16 PM
+    Author     : Os_23
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#video{
+    height:205px;
+    margin-bottom:-322px;
+    margin-left:418px;
+    margin-top:110px;
+    position: absolute;
+    width:235px;
+}

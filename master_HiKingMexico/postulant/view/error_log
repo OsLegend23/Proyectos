@@ -1,0 +1,2 @@
+[08-Oct-2014 01:28:14] PHP Notice:  Undefined index:  PostulationList in /home/hikingme/public_html/lang/es.php on line 682
+[08-Oct-2014 01:28:14] PHP Notice:  A session had already been started - ignoring session_start() in /home/hikingme/public_html/inc/boss.security.inc.php on line 213

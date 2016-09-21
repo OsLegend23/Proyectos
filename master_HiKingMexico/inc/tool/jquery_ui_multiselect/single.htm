@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery MultiSelect Widget Demo</title>
+<link rel="stylesheet" type="text/css" href="../../css/hikingmexico.style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.multiselect.css" />
+
+<link rel="stylesheet" type="text/css" href="../../../theme/jquery-ui-1.9.2/jquery-ui-1.9.2.custom.css" />
+<script type="text/javascript" src="../jQuery/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="../../js/jquery-ui-1.9.2/jquery-ui.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.multiselect.js"></script>
+<script type="text/javascript">
+$(function(){
+
+	$("select").multiselect({
+		multiple: true,
+		height: 372,
+      	minWidth: 372,
+		header: "Seleccionar una opcion",
+		noneSelectedText: "Seleccionar una opcion",
+		selectedList: 0
+	});
+	
+});
+</script>
+
+</head>
+<body>
+
+<h2>Single Select</h2>
+
+<p>Setting the <code>multiple</code> parameter to false will force the widget to use radio buttons instead of checkboxes.  I advise using the <code>header</code>
+parameter along with <code>multiple</code> in order to hide/change the &quot;check all&quot;/&quot;uncheck all&quot; links.</p>
+
+<form>
+	<p>
+		<select name="demo">
+		<option value="option1">OptionOptionOptionOption 1</option>
+		<option value="option2">OptionOptionOptionOption 2</option>
+		<option value="option3">OptionOptionOptionOption 3</option>
+		<option value="option4">OptionOptionOption 4</option>
+		<option value="option5">OptionOptionOption 5</option>
+		<option value="option6">OptionOption 6</option>
+		<option value="option7">OptionOptionOption 7</option>
+		</select>
+	</p>
+</form>
+
+</body>
+</html>

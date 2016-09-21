@@ -1,0 +1,319 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+body {
+    background: #e9eaed;
+}
+
+.actions-vacancy{
+    margin: 25px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: black;
+}
+
+#panel-work:hover {
+    box-shadow: none;
+}
+
+.card a:hover {
+    color: #ffb300 !important;
+}
+
+.card-panel a:hover {
+    color: #ffb300 !important;
+}
+
+.card, .card-panel, #searchJob {
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    padding: initial;
+}
+
+.card-panel:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.striped a {
+    text-transform: capitalize;
+}
+
+.line {
+    border-bottom: 1px solid #f6f7f8;
+    border-top: 1px solid #d3d7dc;
+    margin-top: -10px;
+}
+
+.titleJob {
+    /*text-transform: capitalize;*/
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.508rem;
+    margin: 2.5rem 0 -1rem;
+    /*border-bottom: 1px solid #e5e5e5;*/
+    overflow: hidden;
+    padding: 0 -0.5rem 1rem 0;
+    text-overflow: ellipsis;
+    transition: color 0.1s ease-out 0s;
+}
+
+.companyName {
+    font-size: 1.0rem;
+}
+
+.company {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: -0.5em;
+}
+
+.location {
+    border-left: 1px solid #ced1d7;
+    font-size: 1.0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.3em;
+    padding-left: 0.5rem;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.row .col.s3 {
+    margin-left: 20px;
+    width: 20%;
+}
+
+.infoPanel {
+    height: 80px;
+}
+
+input {
+    width: 50rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0.14rem 0 0.912rem;
+
+}
+
+.card .card-action {
+    padding: 10px;
+    text-align: right;
+}
+
+.card a {
+    color: #039be5;
+}
+
+#modalOverlay {
+    text-align: justify;
+}
+
+/************************************************/
+#searchJob div {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+textarea.materialize-textarea {
+    margin: 0;
+}
+
+.current {
+    background-color: #311b92;
+    font-weight: bolder;
+}
+
+ul#nav-mobile a.current {
+    color: #fff;
+}
+
+.formActionButtons {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.formButton {
+    height: 45px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/************************************************/
+.btn-large {
+    line-height: 16px;
+}
+
+/* label color */
+.input-field label {
+    color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #039be5;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #039be5;
+    box-shadow: 0 1px 0 0 #039be5;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #F00;
+    box-shadow: 0 1px 0 0 #F00;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #039be5;
+}
+
+/* select */
+.select-wrapper span.select-dropdown {
+    background-color: transparent;
+    border: medium none #9e9e9e;
+    border-bottom: 1px solid;
+    border-image: none;
+    color: #444;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 0 15px;
+    outline: medium none;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.modal-footer {
+    /*cursor: pointer;*/
+    margin-bottom: -10px;
+    margin-top: -20px;
+    text-align: right;
+}
+
+.collapsible {
+    box-shadow: none;
+}
+
+#footer {
+    background: none;
+    color: #999999;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+    width: 960px;
+}
+
+#footer .link {
+    color: #999999;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#footer .footer_menu {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.footer_menu li {
+    border-right: 1px solid #7c7471;
+    display: inline;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer_menu .last_menu {
+    border: none;
+}
+
+/*PAGINADOR*/
+
+.prev_paginator {
+    background: url(../../media/icon/arrows.png) no-repeat 0 0;
+    float: left;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: -3px;
+    text-indent: 35px;
+    width: 30px;
+}
+
+.next_paginator {
+    background: url(../../media/icon/arrows.png) no-repeat -30px 0;
+    float: right;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -3px;
+    text-indent: -115px;
+    width: 30px;
+}
+
+/**********************************************************************************/
+
+#logoEmpresa {
+    margin-top: 25px;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 25px;
+    padding: 0.35em 1.625em 1.75em;
+}
+
+label {
+    font-size: 1rem;
+}
+
+/***********************VALIDACION*************************************/
+.error {
+    background-color: rgb(255, 203, 203);
+    border: 1px solid rgb(228, 166, 175);
+    border-radius: 2px;
+    color: rgb(240, 68, 77);
+    padding: 2px 6px;
+    /*left: 11.25px;
+    padding: 2px 6px;
+    position: absolute;
+    top: 45px;*/
+}
